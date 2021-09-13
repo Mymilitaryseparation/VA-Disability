@@ -17,18 +17,18 @@ function anaaddEvent(id,relationId) {
     _obj.attr({"cursor": "pointer"});
     _obj.hover(function () {
       jQuery("#anatip").show().html(anaconfig[id].hover);
-      _obj.css({"fill":"rgba(255, 0, 0, 0.3)"});
+      _obj.css({"fill":"rgba(0, 0, 255, 0.3)"});
     }, function () {
       jQuery("#anatip").hide();
-      jQuery("#" + id).css({"fill":"rgba(255, 0, 0, 0)"});
+      jQuery("#" + id).css({"fill":"rgba(0, 0, 255, 0)"});
     });
     if (anaconfig[id].target !== "none") {
       _obj.mousedown(function () {
-        jQuery("#" + id).css({"fill":"rgba(255, 0, 0, 0.7)"});
+        jQuery("#" + id).css({"fill":"rgba(0, 0, 255, 0.7)"});
       });
     }
     _obj.mouseup(function () {
-      jQuery("#" + id).css({"fill":"rgba(255, 0, 0, 0.3)"});
+      jQuery("#" + id).css({"fill":"rgba(0, 0, 255, 0.3)"});
       if (anaconfig[id].target === "new_window") {
         window.open(anaconfig[id].url); 
       } else if (anaconfig[id].target === "same_window") {
