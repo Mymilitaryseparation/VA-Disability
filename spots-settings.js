@@ -16,7 +16,7 @@ var spotsconfiga = {
     "enabled": true//true/false to activate/deactivate this pin
   },
   {
-    "onclick": "<u><b>Example 'B'</b></u><br>Add unlimited number of spots<br>anywhere on the diagram and<br>customize its colors and size and<br>link it to any webpage.",
+    "hover": "<u><b>Example 'B'</b></u><br>Add unlimited number of spots<br>anywhere on the diagram and<br>customize its colors and size and<br>link it to any webpage.",
     "pos_X": 325, "pos_Y": 440,
     "size": 30,
     "outline": "#FF0000",
