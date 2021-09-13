@@ -19,7 +19,7 @@
 	margin: 0;
 }
 .gob, .goa{
-	fill: #72B8FC;
+	fill: #0000FF;
 	opacity: 0.05;
 	-webkit-transition: fill 0.1s ease;
 	-moz-transition: fill 0.1s ease;
