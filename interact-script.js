@@ -20,7 +20,7 @@ function anaaddEvent(id,relationId) {
       _obj.css({"fill":"rgba(255, 0, 0, 0.3)"});
     }, function () {
       jQuery("#anatip").hide();
-      jQuery("#" + id).css({"fill":"rgba(255, 0, 0, 0)"});
+      jQuery("#" + id).css({"fill":"rgba(0, 0, 255, 0)"});
     });
     if (anaconfig[id].target !== "none") {
       _obj.mousedown(function () {
