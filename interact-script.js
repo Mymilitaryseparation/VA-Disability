@@ -11,7 +11,7 @@ jQuery(function () {
 function anaaddEvent(id,relationId) {
   var arr = id.split("");
   var _obj = jQuery("#" + id + "," + arr.slice().join(""));
-  _obj.attr({"fill":"rgba(255, 0, 0, 0)", "stroke":anaconfig.default.outlineColor});
+  _obj.attr({"fill":"rgba(0, 0, 255, 0)", "stroke":anaconfig.default.outlineColor});
   _obj.attr({"cursor": "default"});
   if (anaconfig[id].enabled === true) {
     _obj.attr({"cursor": "pointer"});
