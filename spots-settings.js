@@ -28,7 +28,7 @@ var spotsconfiga = {
 },
   {
     "hover": "<u><b>Example 'B'</b></u><br>Add unlimited number of spots<br>anywhere on the diagram and<br>customize its colors and size and<br>link it to any webpage.",
-    "pos_X": 325, "pos_Y": 440,
+    "pos_X": 120, "pos_Y": 440,
     "size": 30,
     "outline": "#FF0000",
     "upColor": "#4172ba", "overColor": "rgba(255, 0, 0, 0.7)",
