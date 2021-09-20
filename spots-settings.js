@@ -24,8 +24,6 @@ var spotsconfiga = {
     "url": "https://www.humananatomyillustrations.com/", "target": "same_window",
     "enabled": true
   },
-  ]
-},
   {
     "hover": "<u><b>Example 'B'</b></u><br>Add unlimited number of spots<br>anywhere on the diagram and<br>customize its colors and size and<br>link it to any webpage.",
     "pos_X": 120, "pos_Y": 440,
