@@ -9,7 +9,7 @@ var anaconfig = {
     "enabled": true//true/false to activate/deactivate
   },
   "ana2":{//forehead
-    "hover": "FOREHEAD(scar - 10%)",
+    "hover": "FOREHEAD",
     "url": "https://www.humananatomyillustrations.com/", "target": "same_window",
     "enabled": true
   },
