@@ -1,6 +1,6 @@
 var anaconfig = {
   "default":{
-    "outlineColor": "#FF0000"
+    "outlineColor": "purple"
   },
   "ana1":{//full-face
     "hover": "FULL FACE",//info of the popup
